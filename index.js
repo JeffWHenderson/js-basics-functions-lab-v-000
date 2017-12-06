@@ -21,7 +21,7 @@ function distanceTravelledInFeet(start, end) {
 
 function calculatesFarePrice(start, end) {
   let distance = distanceTravelledInFeet(start, end)
-  switch (distance) {
+  switch distance {
     case distance < 400:
       return 0
     default:
