@@ -22,8 +22,9 @@ function distanceTravelledInFeet(start, end) {
 function calculatesFarePrice(start, end) {
   let distance = distanceTravelledInFeet(start, end)
   switch (distance) {
-    case distance == true
+    case distance == true:
       return 0
+    
   }
   // first 400 feet are free
     // return 0
