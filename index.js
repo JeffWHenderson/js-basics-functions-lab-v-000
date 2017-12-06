@@ -7,6 +7,6 @@ function distanceFromHqInBlocks(block) {
   }
 }
 
-function calculateVertical(block) {
+function distancFromHqInFeet(block) {
    return distanceFromHqInBlocks(block) * 264
 }
