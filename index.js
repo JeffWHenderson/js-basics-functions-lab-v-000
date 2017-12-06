@@ -20,7 +20,6 @@ function distanceTravelledInFeet(start, end) {
 }
 
 function calculatesFarePrice(start, end) {
-  case (distanceTravelledInFeet(start, end)){
-    default: return 'cannot travel that far';
+  return 'cannot travel that far';
   }
 }
