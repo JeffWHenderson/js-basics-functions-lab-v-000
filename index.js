@@ -21,5 +21,4 @@ function distanceTravelledInFeet(start, end) {
 
 function calculatesFarePrice(start, end) {
   return 'cannot travel that far';
-  }
 }
