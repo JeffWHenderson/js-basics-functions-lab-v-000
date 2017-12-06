@@ -20,6 +20,7 @@ function distanceTravelledInFeet(start, end) {
 }
 
 function calculatesFarePrice(start, end) {
+  return distanceTravelledInFeet(start, end)
   // first 400 feet are free
     // return 0
   // between 200 and 2000 it costs 2 cents per foot
