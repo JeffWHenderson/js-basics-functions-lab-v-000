@@ -22,13 +22,10 @@ function distanceTravelledInFeet(start, end) {
 function calculatesFarePrice(start, end) {
   let distance = distanceTravelledInFeet(start, end)
   if (distance < 400) {
-    //case (distance < 400):
-      return 0
-    // default:
-    //   return  distance < 400//'cannot travel that far'
+    return 0
+  } else if (distance < 2000){
+    return distance * 2 / 100
   }
-  // first 400 feet are free
-    // return 0
   // between 200 and 2000 it costs 2 cents per foot
     //    distance in feet * 2 / 100
   // flat rate over 2000 to 2500
