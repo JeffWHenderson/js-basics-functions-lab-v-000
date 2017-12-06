@@ -21,8 +21,11 @@ function distanceTravelledInFeet(start, end) {
 
 function calculatesFarePrice(start, end) {
   // first 400 feet are free
+    // return 0
   // between 200 and 2000 it costs 2 cents per foot
+    //    distance in feet * 2 / 100
   // flat rate over 2000 to 2500
+    // return 25
   // cannot drive over 2500 feet
-      return 'cannot travel that far';
+    //return 'cannot travel that far';
 }
